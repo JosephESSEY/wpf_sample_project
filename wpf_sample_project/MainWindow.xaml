@@ -23,7 +23,7 @@
 
         <StackPanel Grid.Row="1" Grid.Column="1" Margin="5,0,0,0">
             <TextBox x:Name="txtName" />
-            <Button x:Name="btnAdd" Content="Add Name"/>
+            <Button x:Name="btnAdd" Content="Add Name" Click="btnAdd_Click"/>
         </StackPanel>
         
     </Grid>
